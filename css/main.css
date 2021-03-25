@@ -33,12 +33,13 @@ header img{
 }
 nav {
   position: sticky;
-  right: 0;
+  left: 100%;
   top: 0;
   width: 80%;
   height: auto;
   background-color: rgba(100,255,255,.5)
   }
+
 .navbar {
   display: grid;
   grid-auto-flow: column;
