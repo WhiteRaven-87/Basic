@@ -14,15 +14,17 @@ body {
 #wrapper{
   max-width: 1080px;
   margin: 0 auto;
-  background-image: url("../pictures/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
   /*background-color:rgba(200,200,0,1);*/
 }
 
 header {
   display: grid;
   grid-template-columns: 20% 80%;
+  background-image: url("../pictures/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   /*background-image: url("../pictures/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;*/
@@ -37,10 +39,12 @@ nav {
   top: 0;
   width: 80%;
   height: auto;
-  background-color: rgba(100,255,255,.5)
   }
 
 .navbar {
+  position: absolute;
+  background-color: rgba(100,255,255,.5);
+  width: 100%;
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto;
