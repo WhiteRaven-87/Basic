@@ -68,7 +68,7 @@ nav {
   background-color: rgba(200,0,0,.9);
 }
 
-@media (min-width: 1023px {
+@media (min-width: 1023px) {
 main {
   display: grid;
   background-color: darkgreen;
